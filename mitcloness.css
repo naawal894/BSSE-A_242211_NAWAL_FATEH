@@ -308,10 +308,15 @@ nav a:hover {
     flex-direction: column;
     z-index: 10;
     margin-bottom: 0px;
-    height: 60%;
+    height: 100%;
 
 }
 
+@media (max-width: 768px) {
+    .left-side-box {
+        height: auto;
+    }
+}
 /* Styling the heading 2 of left side box */
 .left-side-box h2 {
     font-size: 15.1px;
